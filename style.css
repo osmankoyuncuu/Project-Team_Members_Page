@@ -115,6 +115,11 @@ main {
   right: -27px;
   top: 47px;
 }
+.card:hover {
+  transition: all 1s;
+  transform: scale(120%);
+}
+
 @media screen and (max-width: 1053px) {
   .card {
     width: 50%;
